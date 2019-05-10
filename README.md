@@ -1,5 +1,5 @@
 ### Description
-Uae API to get fusion transcript sequence for probe design with 512 fusion, from COSMIC database  
+Uae API to get fusion transcript sequence for probe design with 512 fusion entries from COSMIC database  
 
 Instruction in COSMIC:  
 TMPRSS2 from exon 1 (UTR) to ERG exon 2 (inclusive).   
