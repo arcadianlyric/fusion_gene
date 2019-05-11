@@ -1,7 +1,7 @@
 ### Description
 Uae API to get fusion transcript sequence for probe design with 512 fusion entries from COSMIC database  
 1.parse fusion gene entries from COSMIC to get fusion gene breakpoint location using regular expression  
-2.use Ensemble and NCBI API to get sequence by breakpoint location  
+2.use python request and API by Ensemble and NCBI to get sequence by breakpoint location  
 3.parse .xml results received API by xml.etree  
 
 Instruction in COSMIC:  
