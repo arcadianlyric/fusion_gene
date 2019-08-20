@@ -4,7 +4,7 @@ Uae API to get fusion transcript sequence for probe design with 512 fusion entri
 2.use python request and API by Ensemble and NCBI to get sequence by breakpoint location  
 3.parse .xml results received API by xml.etree  
 
-Instruction in COSMIC:  
+Format instruction in COSMIC:  
 TMPRSS2 from exon 1 (UTR) to ERG exon 2 (inclusive).   
 TMPRSS2{NM_005656.2}:r.1_71_ERG{NM_004449.3}:r.38_3097    
 TMPRSS2 from intron after exon 1 to intron before ERG exon 2, intronic breakpoints known (374bp downstream of TMPRSS2 exon 1 and 54bp upstream of ERG exon 2).   
