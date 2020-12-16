@@ -1,10 +1,10 @@
-### Description
-Use API to get fusion transcript sequence for probe design with 512 fusion entries from COSMIC database  
+### Project description
+Use API to get fusion transcript sequence for probe design with 512 fusion entries from COSMIC database (https://cancer.sanger.ac.uk/cosmic)  
 1.parse fusion gene entries from COSMIC to get fusion gene breakpoint location using regular expression  
 2.use python request and API by Ensemble and NCBI to get sequence by breakpoint location  
 3.parse .xml results received API by xml.etree  
 
-#### Format instruction in COSMIC:  
+### Format instruction from COSMIC:  
 ```
 TMPRSS2 from exon 1 (UTR) to ERG exon 2 (inclusive).   
 TMPRSS2{NM_005656.2}:r.1_71_ERG{NM_004449.3}:r.38_3097    
